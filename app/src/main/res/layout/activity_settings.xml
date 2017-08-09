@@ -13,19 +13,18 @@
         android:layout_centerInParent="true"
         android:text="Main Menu"/>
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/volume"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/set_menu"
         android:layout_centerInParent="true"
         android:text="Volume"/>
-
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/volbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
-        android:layout_alignRight="@+id/textView"
+        android:layout_above="@+id/volume"
+        android:layout_alignEnd="@+id/volume"
+        android:layout_alignRight="@+id/volume"
         android:layout_marginBottom="20dp" />
 </RelativeLayout>
