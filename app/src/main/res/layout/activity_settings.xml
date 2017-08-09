@@ -20,16 +20,6 @@
         android:layout_centerInParent="true"
         android:text="Volume"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView"
-        android:layout_alignLeft="@+id/set_menu"
-        android:layout_alignStart="@+id/set_menu"
-        android:layout_marginBottom="69dp"
-        android:text="Button" />
-
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="wrap_content"
