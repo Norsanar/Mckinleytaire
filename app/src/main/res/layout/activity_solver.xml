@@ -12,4 +12,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:text="Stack1"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@android:drawable/alert_dark_frame" />
 </RelativeLayout>
