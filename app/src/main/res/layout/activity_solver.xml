@@ -6,12 +6,148 @@
     android:layout_height="match_parent"
     tools:context="com.wilmotbroswordpress.mckinleytaire.Solver">
 
-    <Button
-        android:id="@+id/stack1"
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:id="@+id/foundation"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:text="Stack1"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/hearts"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Hearts"/>
+
+        <Button
+            android:id="@+id/diamonds"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Diamonds"/>
+
+        <Button
+            android:id="@+id/spades"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Spades"/>
+
+        <Button
+            android:id="@+id/clubs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Clubs"/>
+
+        <Button
+            android:id="@+id/pull1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/pull2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/pull3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/pull4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.125"
+            android:text="Empty"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tableau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foundation">
+
+        <Button
+            android:id="@+id/stack1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+
+        <Button
+            android:id="@+id/stack10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:text="Empty"/>
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
