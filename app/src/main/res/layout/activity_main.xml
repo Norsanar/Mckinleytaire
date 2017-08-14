@@ -32,7 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/start_solver_button"
         android:text="Settings"
-        android:onClick="changeScreen"
+        android:onClick="mainToSettings"
         />
 
 </RelativeLayout>
